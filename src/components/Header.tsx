@@ -35,7 +35,11 @@ export function Header({ lang }: Props) {
         </div>
         <div>
           <div className="lab">{MENU_UI.hoursLabel[lang]}</div>
-          <div className="val">{MENU_UI.hours[lang]}</div>
+          <div className="val">
+            <a href="https://maps.app.goo.gl/PBX8BzFLxmfLKvGi7" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>
+              {MENU_UI.hours[lang]}
+            </a>
+          </div>
         </div>
       </div>
 
