@@ -119,7 +119,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'seafood-008', category: 'seafood',
     names: { zh: '龍虎石斑', en: 'Hybrid Grouper', ja: 'ハイブリッドハタ', ko: '하이브리드 그루퍼' },
     price: [p('一尾', 'whole fish', '1尾', '한 마리', 550)],
-    image: '/images/grouper.jpg', emoji: '🐟', tags: [], desc: EMPTY, note: EMPTY,
+    image: 'grouper.jpg', emoji: '🐟', tags: [], desc: EMPTY, note: EMPTY,
   },
   {
     id: 'seafood-009', category: 'seafood',
