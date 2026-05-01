@@ -119,7 +119,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'seafood-008', category: 'seafood',
     names: { zh: '龍虎石斑', en: 'Hybrid Grouper', ja: 'ハイブリッドハタ', ko: '하이브리드 그루퍼' },
     price: [p('一尾', 'whole fish', '1尾', '한 마리', 550)],
-    image: null, emoji: '🐟', tags: [], desc: EMPTY, note: EMPTY,
+    image: '/images/grouper.jpg', emoji: '🐟', tags: [], desc: EMPTY, note: EMPTY,
   },
   {
     id: 'seafood-009', category: 'seafood',
@@ -153,13 +153,13 @@ export const MENU_ITEMS: MenuItem[] = [
   },
   {
     id: 'seafood-013', category: 'seafood',
-    names: { zh: '述抽・鹹蛋香', en: 'Cuttlefish with Salted Egg', ja: 'イカの塩卵炒め', ko: '갑오징어 소금란 볶음' },
+    names: { zh: '透抽・鹹蛋香', en: 'Cuttlefish with Salted Egg', ja: 'イカの塩卵炒め', ko: '갑오징어 소금란 볶음' },
     price: [p('一份', 'per portion', '1人前', '1인분', 500)],
     image: null, emoji: '🦑', tags: [], desc: EMPTY, note: EMPTY,
   },
   {
     id: 'seafood-014', category: 'seafood',
-    names: { zh: '述抽・薑爆蔥香', en: 'Cuttlefish with Ginger & Scallion', ja: 'イカの生姜葱炒め', ko: '갑오징어 생강파 볶음' },
+    names: { zh: '透抽・薑爆蔥香', en: 'Cuttlefish with Ginger & Scallion', ja: 'イカの生姜葱炒め', ko: '갑오징어 생강파 볶음' },
     price: [p('一份', 'per portion', '1人前', '1인분', 500)],
     image: null, emoji: '🦑', tags: [], desc: EMPTY, note: EMPTY,
   },
